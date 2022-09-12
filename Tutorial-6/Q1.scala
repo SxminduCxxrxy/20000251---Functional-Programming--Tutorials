@@ -3,9 +3,9 @@ object tutorial6 {
 
     def main(args: Array[String]):Unit ={
 
-        var en:String = cypher(alphabet, 19)(encrypt(_,_));
+        var en:String = cypher(alphabet, 2)(encrypt(_,_));
         println(en);
-        var de:String = cypher(en, 19)(decrypt(_,_));
+        var de:String = cypher(en, 2)(decrypt(_,_));
         println(de);
         
     }
